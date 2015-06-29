@@ -5,59 +5,64 @@ Here are some suggestive list of topics for computing project. This is no way ex
 
   Plot the longitude and latitude of epicenters published on sites like [Nepal Seismological Center](http://www.seismonepal.gov.np/). Plot options could be: last 24 hours, last 7 days, last 1 month, last year. This can either be web or mobile app.
 
-2. Bus ticket booking:
+2. Ticket booking systems:
+  - Bus ticket
+  - Movie ticket
+  - Airlines ticket
+  - Hospital ticket
+3. Inventory Management systems for SMBs( Small to medium businesses):
+  - Can be done for various businesses such as stationary, restaurant, handicrafts, cloths, groceries, etc.
 
-3. Movie ticket booking:
+4. Billing systems for SMBs: 
+  - Can be done for various businesses such as stationary, restaurant, handicrafts, cloths, groceries, etc.
 
-4. Airlines ticket booking:
 
-5. Hospital ticket booking:
+5. Chat applications:
+  - Suitable for either web or mobile applications.
 
-6. Inventory Management for SMO:
+6. Real estate buy, sell, rent systems:
 
-7. Chat applications
+7. Reservation systems:
+  - Hotel reservation
+  - Bus reservation
 
-8. Real estate buy, sell, rent
 
-9. Hotel reservation
+8. Food/menu ordering systems for inter as well as intra restaurant
 
-10. Food ordering system
+9. Hostel management systems
 
-11. Hostel reservation/management
+10. Various customer relationship management systems for different types of businesses
 
-12. Customer relationship management systems
+11. Personal budget/expenses tracking systems
 
-13. Personal budget/expenses management systems
+12. Computing project management system
 
-14. Computing project management system
+13. Fitness center attendance/management systems
 
-15. Fitness center attendance/management systems
+14. College routine management
 
-16. Handicrafts 
+15. Patient Information management
 
-17. Agricultural products
+16. Doctors appointment
 
-18. Dairy products
+17. Yoga positions discussion forum 
+18. E-Campaign
+19. Interactive trekking route information
+20. Multimedia processing applications:
+  - Image editing
+  - Video editing
+  - Audio processing
 
-19. Grocery
+21. Face recognition
 
-20. College routine management
+22. Voice recognition
 
-21. Patient Information management
+23. Optical character recognition
 
-22. Doctors appointment
+24. Disability support systems
 
-- Ayurvedic medicine information
+25. Exam questions generation/ management
 
-- Yoga positions 
-- E-Campaign
-- Interactive trekking route information
-- Multimedia processing applications
-- Face recognition
-- Voice recognition
-- Optical character recognition
-- Disability support systems
-- Exam questions generation/ management
-- Medical equipments
-- Job portals
-- Assets tracking 
+26. Job portals
+
+27. Organizational Assets tracking 
