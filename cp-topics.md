@@ -3,7 +3,7 @@ Here are some suggestive list of topics for computing project. This is no way ex
 
 1. Nepal Earthquake Map:
 
-Plot the longitude and latitude of epicenters published on sites like [Nepal Seismological Center](http://www.seismonepal.gov.np/). Plot options could be a) last 24 hours, b) last 7 days, c) last 1 month, d) last year. This can either be web or mobile app.
+Plot the longitude and latitude of epicenters published on sites like [Nepal Seismological Center](http://www.seismonepal.gov.np/). Plot options could be: last 24 hours, last 7 days, last 1 month, last year. This can either be web or mobile app.
 
 2. Bus ticket booking:
 
