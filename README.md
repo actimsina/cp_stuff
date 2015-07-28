@@ -29,7 +29,7 @@
 
 5. Add, create project artifacts to the repository
     
-    i. Add your proposal document to your folder
+    i. Add your project artifacts to this folder
     
     ii. `git status`
     
