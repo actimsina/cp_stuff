@@ -13,20 +13,24 @@
 
 # Using *bitbucket.org* and git
 
-1. Install [git](http://git-scm.com/) on your desktop
+0. Learn the basics of git from [TryGit](https://try.github.io/levels/1/challenges/1), It will take just about 15 minutes.
+1. Repeat a few times over a week to get more confidence on this
+
+2. Install [git](http://git-scm.com/) on your desktop
         
     a. Windows installation
+
     b. Linux installation
-    
-2. Clone your repository
-3. Add project artifacts to your repository
-4. Commit changes to the repository
-5. Upload the changes to the *bitbucket.org* server
+
+3. Clone your repository
+4. Add project artifacts to your repository
+5. Commit changes to the repository
+6. Upload the changes to the *bitbucket.org* server
 
 # Some useful git commands
 
-1. <code>git status</code>
-2. <code>git log</code>
-3. <code>git add .</code>
-4. <code>git commit -am "some message"</code> 
-5. <code>git push -u origin master</code>
+1.`git status`
+2.`git log`
+3.`git add .`
+4.`git commit -am "some message"` 
+5.`git push -u origin master`
