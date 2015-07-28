@@ -12,20 +12,31 @@
 4. Follow the instructions shown in the **Command line** option 
     
     i. Install [Git](http://git-scm.com/) on your machine
+    
     ii. Run Git-bash program
+    
     iii. `git config --global user.name "FirstName LastName" `
+    
     iv. `git config --global user.email "youremail@gmail.com"`
+    
     v. `mkdir /path/to/your/project`
+    
     vi. `cd /path/to/your/project`
+    
     vii.  `git init`
-    viii. git remote add origin https://yourusername@bitbucket.org/username/repo.git
+    
+    viii. `git remote add origin https://yourusername@bitbucket.org/username/repo.git`
 
 5. Add, create project artifacts to the repository
     
     i. Add your proposal document to your folder
+    
     ii. `git status`
+    
     iii. `git add .`
+    
     iv. `git commit -am"proposal added"`
+    
     v. `git push -u origin master`
 
 
