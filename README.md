@@ -5,7 +5,7 @@
 # Assignment Submission
 
 1. Create a account on [bitbucket.org](http://bitbucket.org)
-2. All your user name on the [bitbucket.org](http://bitbucket.org) should be named as 11_firstName_lastName_nccId
+2. All your user name on the [bitbucket.org](http://bitbucket.org) should be named as 11_FirstName_LastName_NCCID
 4. Goto Settings -> Access Management -> Users 
 5. Add 'cpbatch11' 
 6. Give 'admin' privilege
@@ -14,8 +14,10 @@
 # Using *bitbucket.org* and git
 
 1. Install [git](http://git-scm.com/) on your desktop
+        
     a. Windows installation
     b. Linux installation
+    
 2. Clone your repository
 3. Add project artifacts to your repository
 4. Commit changes to the repository
