@@ -30,7 +30,11 @@
 # Some useful git commands
 
 1.`git status`
+
 2.`git log`
+
 3.`git add .`
+
 4.`git commit -am "some message"` 
+
 5.`git push -u origin master`
