@@ -68,3 +68,6 @@ Here are some suggestive list of topics for computing project. This is no way ex
 27. Organizational Assets tracking 
 
 28. Vehicle rental management systems : Various types of vehicles can be rented to customers. Each type of vehicle can have different options for rentals. Common vehicles include car, motorbike, bicycle, etc.
+
+29. Pawn Shop Management System
+
