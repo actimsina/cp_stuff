@@ -1,6 +1,9 @@
 # List of topics
 Here are some suggestive list of topics for computing project. This is no way exhaustive. Students are highly advised to come up with their own idea for the project.
 
+* Vehicle rental systems:
+* Customer relationship management systems for any particular type of business (academic institutions, clothing stores, consultancies, etc.)
+
 1. Nepal Earthquake Map:
 
   Plot the longitude and latitude of epicenters published on sites like [Nepal Seismological Center](http://www.seismonepal.gov.np/). Plot options could be: last 24 hours, last 7 days, last 1 month, last year. This can either be web or mobile app.
