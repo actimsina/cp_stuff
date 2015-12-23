@@ -1,19 +1,21 @@
-# CP Stuffs
+# CP Guidelines
 
 > Find some useful materials for the "Computing project".
 
-# Assignment Submission
+# Using Git to manage configuration of your project
 
 1. Create a account on [bitbucket.org](http://bitbucket.org)
-2. Your user name on the [bitbucket.org](http://bitbucket.org) should be named as `11_FirstName_LastName_NCCID`
+<!-- 2. Your user name on the [bitbucket.org](http://bitbucket.org) should be named as `11_FirstName_LastName_NCCID` -->
 
 3. Name your project repository `ProjectTitle` for example: (`HotelBookingSystem`)
 
 4. Follow the instructions shown in the **Command line** option 
     
-    i. Install [Git](http://git-scm.com/) on your machine
+
+    i. Download and install Git from [Git](http://git-scm.com/) on your machine    
+        * Download and install SourceTree [SourceTree](https://www.sourcetreeapp.com/) --- a GUI for doing git operations.    
     
-    ii. Run Git-bash program
+    ii. Run Git-bash program as `Administrator`
     
     iii. `git config --global user.name "FirstName LastName" `
     
@@ -41,7 +43,7 @@
 
 
 6. Goto Settings -> Access Management -> Users 
-5. Add 'cpbatch11' 
+5. Add 'cpsoftwarica' 
 6. Give either 'admin' or 'write' privilege
 7. Press Add!
 
@@ -62,5 +64,6 @@
 
 6. `git push -u origin master`
 
+7. Keep hacking git, you got a lot to learn here!
 
 ** Welcome to the *Rabbit Hole* **
