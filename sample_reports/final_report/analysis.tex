@@ -1,15 +1,10 @@
 %!TEX root = final_report.tex
-
 \chapter{Analysis specification} % (fold)
 \label{cha:analysis}
 
-What activities are involved in analysis? --Describe in detail
-
 Why we need to perform analysis? --Give adequate reasons for conducting analysis
 
-Provide overview of your project, most probably with a overview diagram. Try to be creative here, and use your own suitable overview diagram such that even a non-technical person can understand it. Try to come up with a rich picture of your system.
-
-Provide guide to the reader of your analysis document (Which section/chapter is where in your document, and what it consists of?) For example: The requirements engineering process is described in Section~\ref{sec:requirements}. The Use cases and architecture are provided in Section~\ref{sec:use_cases}, and~\ref{sec:architecture}. Finally, this report ends with a conclusion in a separate Section~\ref{sec:conclusion}.
+Provide guide to the reader of your analysis document (Which section/chapter is where in your document, and what it consists of?) For example: The requirements engineering process is described in Section~\ref{sec:requirements}. The Use cases and architectures are provided in Section~\ref{sec:use_cases}, and~\ref{sec:architecture}.
 
 This chapter should have following sections, along with its own introduction and conclusion:
 \begin{itemize}
@@ -21,9 +16,7 @@ This chapter should have following sections, along with its own introduction and
 \section{Requirements} % (fold)
 \label{sec:requirements}
 
-How you have collected requirements for this project? Describe in detail your requirements capturing method. 
-
-Put the same things from the last analysis specification document you have submitted along with the improvements.
+How you have collected requirements for this project? Describe in detail your requirements capture, analysis, and specification method(s). 
 
 \subsection{Functional requirements} % (fold)
 \label{sub:functional_requirements}
@@ -45,12 +38,7 @@ You should at least have \textbf{10} functional requirements.
 	\item[Rational:] To maintain user security and privacy
 \end{description}
 \hrule
-\begin{description}
-	\item[ID:] R3
-	\item[Title:]
-	\item[Description:] ...
-	\item[Rational:] ...
-\end{description}
+
 % subsection functional_requirements (end)
 \subsection{Non-functional requirements} % (fold)
 \label{sub:non_functional_requirements}
@@ -78,7 +66,6 @@ This section should provide quality or non-functional requirements for your syst
 		\item[Title:] Communication security
 		\item[Description:] The message should be encrypted for log-in communications, so others cannot get user-name and password from those messages.So all of the login messages should be encrypted.
 		\item[Rational:] To maintain user secrecy and privacy
-		\item[Dependencies:] R1, R2
 	\end{description}
 	\hrule
 	% \item[Maintainability]
@@ -110,8 +97,27 @@ For example (Just an example, but you are free to use your custom way to present
 
 \section{Use cases} % (fold)
 \label{sec:use_cases}
+This section should provide:
+\begin{itemize}
+	\item The use cases that support the requirements of your project
+	\item Use cases should have a use case diagram
+	\item Each use case should have a scenario description
+	\item For scenario description, you can use a suitable style
+	\begin{itemize}
+		\item Paragraph style
+		\item Single column or sequence of interaction steps
+		\item More formal styles with pre-conditions, post-conditions, entry criteria, exit criteria, etc.
+	\end{itemize}
+	\item You can break down your use case diagram based on major components or modules of your system. 
+	\item You should use various relations between use cases whenever applicable. Most frequent relationships are: 
+	\begin{itemize}
+		\item extends
+		\item includes
+		\item uses
+	\end{itemize}
+\end{itemize}
 
-One thing you need to have in your mind while developing use cases is ``Developing use case is fundamentally a scenario writing activity, not just drawing use case diagrams''(\cite{larman2012applying}).
+One thing you need to have in your mind while developing use cases is ``Developing use case is fundamentally a scenario writing activity, not just drawing use case diagrams''(\cite{larman2012applying}). Hence a typical use case 
 % section use_cases (end)
 
 \section{Architecture} % (fold)
@@ -119,16 +125,35 @@ One thing you need to have in your mind while developing use cases is ``Developi
 
 \subsection{System architecture} % (fold)
 \label{sub:system_architecture}
-Put the same things from the last analysis specification document you have submitted along with the improvements.
+This section should have:
+
+\begin{itemize}
+	\item How you are going make your project easy to change and maintain?
+	\item How you have separated different aspects (persistence, user interface, etc.) of your system?
+	\item You should draw a system architecture diagram and explain it. 
+	\item There are various ways you can build your system architecture, but two of the most widely used are Layered architecture and the MVC. Choose one and describe! I suggest you to use MVC.
+\end{itemize}
+
 % subsection system_architecture (end)
 
 \subsection{Initial class diagram} % (fold)
 \label{sub:initial_class_diagram}
-Put the same things from the last analysis specification document you have submitted along with the improvements.
+
+This section should have high level class diagram of your application. You can come up with your initial class diagram using Natural Language Analysis method. The classes you identified in this section are at domain level. It should just have your classes identified from the requirements specification and use cases of your project. It should not consist of classes pertaining to databases, user interfaces, or any other implementation induced classes.
+
+Your class diagram should depict:
+
+\begin{itemize}
+	\item Identified classes from Natural language analysis of your requirements specification
+	\item Relevant attributes and methods of each class
+	\item Relationships between those classes. You should at least identify \textbf{inheritance} and \textbf{composition} relationship between your classes.
+	\item Finally, you should describe why and how you have come up with the class diagram.
+\end{itemize}
+
 % subsection initial_class_diagram (end)
 % section architecture (end)
 
 \section{Conclusion} % (fold)
-Put the same things from the last analysis specification document you have submitted along with the improvements.
+Provide conclusion for your project analysis specification. It should summarize the activities you did in analyzing the system.
 % section conclusion (end)
 % chapter analysis (end)
