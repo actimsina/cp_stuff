@@ -2,36 +2,72 @@
 \chapter{Design specification} % (fold)
 \label{cha:design}
 
-\section{Introduction} % (fold)
-Put the same things from the last design specification document you have submitted along with the improvements.
-% section introduction (end)
+Why we need to perform design? --Give adequate reasons for conducting design
+
+Describe UML and why do we use it for designing OO projects like yours?
+
+Visit the site \url{www.uml-diagrams.org} for further references on UML.
+
+Which tool you have used in drawing your UMLs? Describe them. (I recommend you to use Visual Paradigm \footnote{\url{www.visual-paradigm.com}})
+
+Provide guide to the reader of your analysis document (Which section/chapter is where in your document, and what it consists of?). For example: Section~\ref{sec:structural_model} describes structural model of the system. The behavior models are depicted in Section~\ref{sec:behavior_model}.
 
 \section{Structural model} % (fold)
 \label{sec:structural_model}
-Put the same things from the last design specification document you have submitted along with the improvements.
-% section structural_model (end)
+This section shows the static structure of the system and its parts on different abstraction levels and how they are related to each other. 
 
-\section{Database model} % (fold)
-\label{sec:database_model}
-You should provide your relational and/or entity-relational model with relevant data dictionary in this section.
-% subsection database_model (end)
+This section should provide detailed application level class diagram for your system. This includes:
+
+\begin{itemize}
+  \item Classes
+  \item Relationships between classes
+  \item Attributes and methods
+  \item Appropriate description of the drawn class diagrams and identified relationships
+\end{itemize}
+
+This section should elaborate on the initial class diagram you have drawn in previous analysis document. This class diagram should reflect your actual code structure. It includes not just the domain level classes but also implementation level classes. For example classes for database connections, UI, design patterns, architectural classes. In this section you should also discuss why you have come up with the classes and the relationships. Diagrams without proper description will be poorly evaluated.
+
+Put your ER diagrams here if you have used any RDBMS (Relational database management system). Describe your ER diagram. Put your data dictionary in Appendix of your report.
+% section structural_model (end)
 
 \section{Behavior model} % (fold)
 \label{sec:behavior_model}
-Put the same things from the last design specification document you have submitted along with the improvements.
-% section behavior_model (end)
+
+Behavior model show the dynamic behavior of the objects in a system, which can be described as a series of changes to the system over time. This section models how a system should respond to users and evolve over time.
+
+Why behavior model is needed in designing computing projects?
+What are various ways of modeling behavior of a software project? (sequence diagrams, activity diagrams, collaboration diagrams, etc.)
+
+Describe various behavior model in brief, and discuss suitability of one or two behavior model in your project.
 
 \subsection{Sequence diagram} % (fold)
 \label{sub:sequence_diagram}
-Put the same things from the last design specification document you have submitted along with the improvements.
+Sequence diagrams show the interchange of message between lifelines (objects). It shows the collaboration of objects based on a time sequence. It shows how objects interact with others in a particular \emph{scenario of a use case}.
+Sequence diagrams shows:
+\begin{itemize}
+	\item the order in which methods are invoked in a system.
+	\item the scope, or lifeline, of objects.
+	\item the operation at a higher level of abstraction than an activity diagram.
+\end{itemize}
+
+You should develop a number of sequence diagrams for each major use case in your project. Each sequence diagrams should be properly labeled and described.
 % subsection sequence_diagram (end)
 
 \subsection{Activity diagram} % (fold)
 \label{sub:activity_diagram}
-Put the same things from the last design specification document you have submitted along with the improvements.
+Have your activity diagrams with relevant description in this section.
+
+Activity diagrams show sequence and conditions for coordinating lower-level behaviors, rather than which classifier own those behaviors. These are commonly called control flow and object flow models. The behaviors coordinated by these models can be initiated because other behaviors finish executing, because objects and data become available, or because events occur external to the flow.
+
+Activity diagrams are known as work flow diagrams. They are much like flow-charts, but more structured. Activity diagrams are used to describe the full process behind and internal process or a user request. They describe the logic of the operations that are shown on class diagrams.
+
+Activity diagrams are mostly used for two purposes:
+\begin{itemize}
+	\item Outlining the high level activity in a system
+	\item Formally representing algorithms (each activity becomes a line of code)
+\end{itemize}
 % subsection activity_diagram (end)
 
 \section{Conclusion} % (fold)
-Put the same things from the last design specification document you have submitted along with the improvements.
-% section conclusion (end)
+Provide conclusion for your project design specification. It should summarize the activities you did in designing the system.
 % chapter design (end)
