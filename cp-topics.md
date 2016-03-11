@@ -57,7 +57,9 @@ Suitable for either web or mobile applications.
 * Appointment handling system for doctors, lawyers, etc. 
 
 * Yoga positions discussion forum 
+
 * E-Campaign
+
 * Interactive trekking route information
 
 * Multimedia processing applications:
@@ -83,4 +85,3 @@ Suitable for either web or mobile applications.
 * Vehicle rental management systems : Various types of vehicles can be rented to customers. Each type of vehicle can have different options for rentals. Common vehicles include car, motorbike, bicycle, etc.
 
 * Pawn Shop Management System
-

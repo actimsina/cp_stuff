@@ -1,0 +1,134 @@
+%!TEX root = final_report.tex
+
+\chapter{Analysis specification} % (fold)
+\label{cha:analysis}
+
+What activities are involved in analysis? --Describe in detail
+
+Why we need to perform analysis? --Give adequate reasons for conducting analysis
+
+Provide overview of your project, most probably with a overview diagram. Try to be creative here, and use your own suitable overview diagram such that even a non-technical person can understand it. Try to come up with a rich picture of your system.
+
+Provide guide to the reader of your analysis document (Which section/chapter is where in your document, and what it consists of?) For example: The requirements engineering process is described in Section~\ref{sec:requirements}. The Use cases and architecture are provided in Section~\ref{sec:use_cases}, and~\ref{sec:architecture}. Finally, this report ends with a conclusion in a separate Section~\ref{sec:conclusion}.
+
+This chapter should have following sections, along with its own introduction and conclusion:
+\begin{itemize}
+  \item Requirements
+  \item Use cases
+  \item Architecture
+\end{itemize}
+
+\section{Requirements} % (fold)
+\label{sec:requirements}
+
+How you have collected requirements for this project? Describe in detail your requirements capturing method. 
+
+Put the same things from the last analysis specification document you have submitted along with the improvements.
+
+\subsection{Functional requirements} % (fold)
+\label{sub:functional_requirements}
+
+You should at least have \textbf{10} functional requirements.
+
+\hrule
+\begin{description}
+	\item[ID:] R1
+	\item[Title:] User signup
+	\item[Description:] A new user should be able to register through the web portal. The user must provide user-name, password and e-mail address.
+	\item[Rational:] To acquire users credentials for login process
+\end{description}
+\hrule
+\begin{description}
+	\item[ID:] R2
+	\item[Title:] User login
+	\item[Description:] Existing user should be able to login to the system using existing user name and password. Appropriate message to the user should be provided whether one has entered correct credentials.
+	\item[Rational:] To maintain user security and privacy
+\end{description}
+\hrule
+\begin{description}
+	\item[ID:] R3
+	\item[Title:]
+	\item[Description:] ...
+	\item[Rational:] ...
+\end{description}
+% subsection functional_requirements (end)
+\subsection{Non-functional requirements} % (fold)
+\label{sub:non_functional_requirements}
+This section should provide quality or non-functional requirements for your system. You should at least have 5 testable quality requirements. The non-functional requirements are:
+\begin{description}
+	\item[Performance] It should specify both the static and the dynamic performance requirements placed on the software or on human interaction with software as a whole. For example: the number of simultaneous users to be supported; amount and type of information to be handled, etc. All the requirements should be stated n measurable terms. For example: \emph{95\% of the transactions should be processed in less than 1s.}
+
+	\item[Reliability] This should specify the factors required to establish the required reliability of the software system at time of delivery. For example: \emph{The system produces reliable results 99\% of the time}.
+
+	\item[Availability] This should specify the factors required to guarantee a defined availability level for the entire system such as checkpoint, recovery, and restart. For example: \emph{The system should be 99\% available.}
+
+	\item[Security] This should specify the factors that protect the software from accidental or malicious access, use, modification, destruction, or disclosure. Specific requirements in this area could include the need to:
+	\begin{itemize}
+		\item Utilize certain cryptographic techniques;
+		\item Keep specific log or history data sets;
+		% \item Assign certain functions to different modules;
+		\item Restrict communications between some areas of the program;
+		\item Check data integrity for critical variables;
+	\end{itemize}
+
+	Example non-functional requirement:
+	\hrule
+	\begin{description}
+		\item[ID:] Q1
+		\item[Title:] Communication security
+		\item[Description:] The message should be encrypted for log-in communications, so others cannot get user-name and password from those messages.So all of the login messages should be encrypted.
+		\item[Rational:] To maintain user secrecy and privacy
+		\item[Dependencies:] R1, R2
+	\end{description}
+	\hrule
+	% \item[Maintainability]
+	% \item[Portability]
+\end{description}
+% subsection non_functional_requirements (end)
+
+\subsection{Prioritization} % (fold)
+\label{sub:prioritization}
+
+Use MoSCoW prioritization technique to prioritize your all requirements. Provide brief description of how you will perform MoSCow prioritization technique with relevant references.
+
+Provide final result of prioritization in here.
+
+For example (Just an example, but you are free to use your custom way to present the prioritization process):
+\begin{table}[htb!]
+  \centering
+\begin{tabular}{l|c}
+  \bf{Requirement} & \bf{MoSCoW}\\ \hline\hline
+  R1. User Authentication & Should \\ \hline
+  ... & ... \\ \hline
+  ... & ... \\ \hline
+\end{tabular}
+  \caption{Requirements prioritization using MoSCoW}
+  \label{tab:moscow}
+\end{table}
+% subsection prioritization (end)
+% section requirements (end)
+
+\section{Use cases} % (fold)
+\label{sec:use_cases}
+
+One thing you need to have in your mind while developing use cases is ``Developing use case is fundamentally a scenario writing activity, not just drawing use case diagrams''(\cite{larman2012applying}).
+% section use_cases (end)
+
+\section{Architecture} % (fold)
+\label{sec:architecture}
+
+\subsection{System architecture} % (fold)
+\label{sub:system_architecture}
+Put the same things from the last analysis specification document you have submitted along with the improvements.
+% subsection system_architecture (end)
+
+\subsection{Initial class diagram} % (fold)
+\label{sub:initial_class_diagram}
+Put the same things from the last analysis specification document you have submitted along with the improvements.
+% subsection initial_class_diagram (end)
+% section architecture (end)
+
+\section{Conclusion} % (fold)
+Put the same things from the last analysis specification document you have submitted along with the improvements.
+% section conclusion (end)
+% chapter analysis (end)
