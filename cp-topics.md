@@ -1,76 +1,86 @@
 # List of topics
 Here are some suggestive list of topics for computing project. This is no way exhaustive. Students are highly advised to come up with their own idea for the project.
 
-* Vehicle rental systems:
-* Customer relationship management systems for any particular type of business (academic institutions, clothing stores, consultancies, etc.)
+* Vehicle rental systems
 
-1. Nepal Earthquake Map:
+* Customer relationship management systems for any type of business (academic institutions, clothing stores, consultancies, etc.)
 
-  Plot the longitude and latitude of epicenters published on sites like [Nepal Seismological Center](http://www.seismonepal.gov.np/). Plot options could be: last 24 hours, last 7 days, last 1 month, last year. This can either be web or mobile app.
+* Nepal Earthquake Map:
 
-2. Ticket booking systems:
+Plot the longitude and latitude of epicenters published on sites like [Nepal Seismological Center](http://www.seismonepal.gov.np/). Plot options could be: last 24 hours, last 7 days, last 1 month, last year. This can either be web or mobile app.
+
+
+* Ticket booking systems:
+
   - Bus ticket
   - Movie ticket
   - Airlines ticket
   - Hospital ticket
-3. Inventory Management systems for SMBs( Small to medium businesses):
-  - Can be done for various businesses such as stationary, restaurant, handicrafts, cloths, groceries, etc.
 
-4. Billing systems for SMBs: 
-  - Can be done for various businesses such as stationary, restaurant, handicrafts, cloths, groceries, etc.
+* Inventory Management systems for SMBs( Small to medium businesses):
+
+It can be done for various businesses such as stationary, restaurant, handicrafts, cloths, groceries, etc.
+
+* Billing systems for SMBs: 
+
+Can be done for various businesses such as stationary, restaurant, handicrafts, cloths, groceries, etc.
 
 
-5. Chat applications:
-  - Suitable for either web or mobile applications.
+* Chat applications:
 
-6. Real estate buy, sell, rent systems:
+Suitable for either web or mobile applications.
 
-7. Reservation systems:
+* Real estate buy, sell, rent systems:
+
+* Reservation systems:
+  
   - Hotel reservation
   - Bus reservation
+  - Restaurant booking
 
+* Food/menu ordering systems for inter as well as intra restaurant
 
-8. Food/menu ordering systems for inter as well as intra restaurant
+* Hostel management systems
 
-9. Hostel management systems
+* Various customer relationship management systems for different types of businesses
 
-10. Various customer relationship management systems for different types of businesses
+* Personal budget/expenses tracking systems
 
-11. Personal budget/expenses tracking systems
+* Project management system
 
-12. Computing project management system
+* Fitness center attendance/management systems
 
-13. Fitness center attendance/management systems
+* College routine management
 
-14. College routine management
+* Patient Information management
 
-15. Patient Information management
+* Appointment handling system for doctors, lawyers, etc. 
 
-16. Appointment handling system for doctors, lawyers, etc. 
+* Yoga positions discussion forum 
+* E-Campaign
+* Interactive trekking route information
 
-17. Yoga positions discussion forum 
-18. E-Campaign
-19. Interactive trekking route information
-20. Multimedia processing applications:
+* Multimedia processing applications:
+  
   - Image editing
   - Video editing
   - Audio processing
 
-21. Face recognition
+* Face recognition
 
-22. Voice recognition
+* Voice recognition
 
-23. Optical character recognition
+* Optical character recognition
 
-24. Disability support systems
+* Disability support systems
 
-25. Exam questions generation/ management
+* Exam questions generation/ management
 
-26. Job portals
+* Job portals
 
-27. Organizational Assets tracking 
+* Organizational Assets tracking 
 
-28. Vehicle rental management systems : Various types of vehicles can be rented to customers. Each type of vehicle can have different options for rentals. Common vehicles include car, motorbike, bicycle, etc.
+* Vehicle rental management systems : Various types of vehicles can be rented to customers. Each type of vehicle can have different options for rentals. Common vehicles include car, motorbike, bicycle, etc.
 
-29. Pawn Shop Management System
+* Pawn Shop Management System
 
