@@ -4,7 +4,7 @@ In this repository, students from **Softwarica College** can access various rele
 
 Anyone interested in doing computing projects at undergraduate level can find this repository useful.
 
-### How to find things:
+## How to find things:
 - Sample_report
     - proposal
         - proposal.pdf
