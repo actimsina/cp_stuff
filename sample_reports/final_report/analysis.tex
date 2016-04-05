@@ -8,10 +8,35 @@ Provide guide to the reader of your analysis document (Which section/chapter is 
 
 This chapter should have following sections, along with its own introduction and conclusion:
 \begin{itemize}
-  \item Requirements
   \item Use cases
+  \item Requirements
   \item Architecture
 \end{itemize}
+
+\section{Use cases} % (fold)
+\label{sec:use_cases}
+This section should provide:
+\begin{itemize}
+	\item The use cases that support the requirements of your project
+	\item Use cases should have a use case diagram
+	\item Each use case should have a scenario description
+	\item For scenario description, you can use a suitable style
+	\begin{itemize}
+		\item Paragraph style
+		\item Single column or sequence of interaction steps
+		\item More formal styles with pre-conditions, post-conditions, entry criteria, exit criteria, etc.
+	\end{itemize}
+	\item You can break down your use case diagram based on major components or modules of your system. 
+	\item You should use various relations between use cases whenever applicable. Most frequent relationships are: 
+	\begin{itemize}
+		\item extends
+		\item includes
+		\item uses
+	\end{itemize}
+\end{itemize}
+
+One thing you need to have in your mind while developing use cases is ``Developing use case is fundamentally a scenario writing activity, not just drawing use case diagrams''(\cite{larman2012applying}). Hence a typical use case 
+% section use_cases (end)
 
 \section{Requirements} % (fold)
 \label{sec:requirements}
@@ -94,31 +119,6 @@ For example (Just an example, but you are free to use your custom way to present
 \end{table}
 % subsection prioritization (end)
 % section requirements (end)
-
-\section{Use cases} % (fold)
-\label{sec:use_cases}
-This section should provide:
-\begin{itemize}
-	\item The use cases that support the requirements of your project
-	\item Use cases should have a use case diagram
-	\item Each use case should have a scenario description
-	\item For scenario description, you can use a suitable style
-	\begin{itemize}
-		\item Paragraph style
-		\item Single column or sequence of interaction steps
-		\item More formal styles with pre-conditions, post-conditions, entry criteria, exit criteria, etc.
-	\end{itemize}
-	\item You can break down your use case diagram based on major components or modules of your system. 
-	\item You should use various relations between use cases whenever applicable. Most frequent relationships are: 
-	\begin{itemize}
-		\item extends
-		\item includes
-		\item uses
-	\end{itemize}
-\end{itemize}
-
-One thing you need to have in your mind while developing use cases is ``Developing use case is fundamentally a scenario writing activity, not just drawing use case diagrams''(\cite{larman2012applying}). Hence a typical use case 
-% section use_cases (end)
 
 \section{Architecture} % (fold)
 \label{sec:architecture}
