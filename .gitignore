@@ -11,4 +11,5 @@
 *blx.bib
 *.fls
 *.out
-
+*.snm
+*.nav
