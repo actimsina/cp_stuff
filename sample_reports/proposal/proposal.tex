@@ -10,7 +10,7 @@
 \usepackage{graphicx}
 \usepackage{lscape}
 % \usepackage{url}
-% \usepackage{pdfpages}
+\usepackage{pdfpages}
 
 \usepackage[backend=bibtex,style=authoryear]{biblatex}
 % \usepackage{harvard}
@@ -31,6 +31,9 @@ Kathmandu, Nepal
 \date{\textless Proposal submission date\textgreater}
 
 \maketitle
+
+\includepdf[pages={1}]{../statement_of_own_work.pdf}
+
 \tableofcontents
 % \listoffigures
 % \listoftables
@@ -38,6 +41,8 @@ Kathmandu, Nepal
 % This is abstract text: This simple document shows very basic features of \LaTeX{}.
 % \end{abstract}
 % \newpage
+
+
 
 \chapter{Introduction} % (fold)
 \label{cha:introduction}
@@ -224,7 +229,7 @@ Your Gantt chart will be here Figure~\ref{fig:gantt}. Your Gantt chart should sh
 \begin{landscape}
 \begin{figure}[htb!]
   \begin{center}
-    \includegraphics[width=9in, height=5in]{../img/sample_gantt.png}
+    \includegraphics[width=9in, height=4.5in]{../img/sample_gantt.png}
   \end{center}
   \caption{Sample Gantt chart}
   \label{fig:gantt}
@@ -309,5 +314,5 @@ Describe your configuration management plan here!. Configuration management is a
 Provide conclusion for your project proposal.
 % chapter conclusion (end)
 
-\printbibliography
+\printbibliography[title={References}]
 \end{document}
